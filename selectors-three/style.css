@@ -1,0 +1,24 @@
+a:link {
+    color: orange;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: green;
+}
+
+div p:first-child {
+    font-size: 150%;
+}
+
+div p:first-child::first-line {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
